@@ -360,7 +360,7 @@ section .title::after{
     height: 100%;
     left: 0;
     top: 0;
-    background: crimson;
+    background: black;
 }
 .skills-content .right .html::before{
     width: 100%;
