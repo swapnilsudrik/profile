@@ -88,7 +88,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: cadetblue;
+    background: crimson;
 }
 .navbar .max-width{
     display: flex;
@@ -105,7 +105,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
-    color: #fff;
+    color: black;
 }
 .navbar .menu li{
     list-style: none;
@@ -198,18 +198,18 @@ section .title::after{
 }
 .home .home-content a{
     display: inline-block;
-    background: cadetblue;
+    background: crimson;
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid cadetblue;
+    border: 2px solid crimson;
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
-    color: cadetblue;
+    color: crimson;
     background: none;
 }
 
@@ -242,18 +242,18 @@ section .title::after{
 }
 .about .about-content .right a{
     display: inline-block;
-    background: cadetblue;
+    background: crimson;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid cadetblue;
+    border: 2px solid crimson;
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: cadetblue;
+    color: crimson;
     background: none;
 }
 
