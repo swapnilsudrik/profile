@@ -435,7 +435,7 @@ footer p {
 
 @media screen and (max-width: 1400px) {
   #profile {
-    height: 75vh;
+    /* height: 75vh; */
     margin-bottom: 6rem;
   }
   .about-containers {
@@ -484,7 +484,7 @@ footer p {
     height: 40vh;
   } */
   #profile {
-    height: 83vh;
+    /* height: 83vh; */
     margin-bottom: 0;
   }
   article {
