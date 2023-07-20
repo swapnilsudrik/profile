@@ -166,7 +166,7 @@ section {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 80vh;
+  /* height: 80vh; */
 }
 
 .section__pic-container {
@@ -434,10 +434,10 @@ footer p {
 }
 
 @media screen and (max-width: 1400px) {
-  #profile {
-    /* height: 75vh; */
+  /* #profile {
+    height: 75vh;
     margin-bottom: 6rem;
-  }
+  } */
   .about-containers {
     flex-wrap: wrap;
   }
