@@ -301,6 +301,7 @@ section {
 
 .details-container {
   padding: 1.5rem;
+  margin-bottom: 2rem;
   flex: 1;
   background: white;
   border-radius: 2rem;
@@ -434,7 +435,7 @@ footer p {
 
 @media screen and (max-width: 1400px) {
   #profile {
-    height: 83vh;
+    height: 75vh;
     margin-bottom: 6rem;
   }
   .about-containers {
@@ -500,6 +501,10 @@ footer p {
   }
   .contact-info-container {
     margin: 0;
+  }
+  .about-containers,
+  .about-details-container {
+    display: block;
   }
   .contact-info-container p,
   .nav-links li a {
