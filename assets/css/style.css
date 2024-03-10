@@ -95,7 +95,7 @@ header .mode {
 }
 
 section {
-  min-height: max-content;
+  /* min-height: max-content; */
   /* 100vh */
   padding: 2rem 9%;
 }
