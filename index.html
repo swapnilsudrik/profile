@@ -1,490 +1,367 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-      Swapnil Sudrik | Full-Stack Developer | Programmer | Web Developer |
-      Freelancer
-    </title>
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-  </head>
-  <body>
-    <nav id="desktop-nav">
-      <div class="logo">Swapnil Sudrik</div>
-      <div>
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords"
+    content="swapnil sudrik, swapnil, portfolio, full stack developer, personal portfolio, portfolio design, portfolio website, personal portfolio" />
+  <meta name="description"
+    content="Welcome to Swapnil's Portfolio. Full-Stack Web Developer | Java Developer | MERN Stack Developer" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Favicon -->
+  <link id='favicon' rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-png">
+  <title>
+    Swapnil Sudrik | Full-Stack Developer | Java Developer | MERN Stack Developer |
+    Freelancer
+  </title>
+</head>
+
+<!--  -->
+
+<body oncontextmenu="return false">
+
+  <!-- navbar starts -->
+  <header id="header">
+    <a href="/" class="logo"><b class="logo-letters">SS</b> SWAPNIL SUDRIK</a>
+    <div id="menu" class="fas fa-bars"></div>
+    <nav class="navbar">
+      <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a id="links" href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- navbar ends -->
+
+
+  <!-- hero section starts -->
+  <section class="home" id="home">
+    <div id="particles-js"></div>
+
+    <div class="content">
+      <h2>Hi There,<br /> I'm Swapnil <span>Sudrik</span></h2>
+      <p>i am into <span class="typing-text"></span></p>
+      <a href="#about" class="btn"><span>About Me</span>
+        <i class="fas fa-arrow-circle-down"></i>
+      </a>
+      <div class="socials">
+        <ul class="social-icons">
+          <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/swapnil-sudrik/"
+              target="_blank"><i class="fab fa-linkedin"></i></a></li>
+
+          <li><a class="github" aria-label="GitHub" href="https://github.com/swapnil-sudrik" target="_blank"><i
+                class="fab fa-github"></i></a></li>
+
+          <li><a class="telegram" aria-label="Telegram" href="https://t.me/swapnil_sudrik" target="_blank"><i
+                class="fab fa-telegram-plane"></i></a></li>
+
+          <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/swapnil_sudrik"><i
+                class="fab fa-instagram" target="_blank"></i></a></li>
         </ul>
       </div>
-    </nav>
-    <nav id="hamburger-nav">
-      <div class="logo">Swapnil Sudrik</div>
-      <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-        </div>
-      </div>
-    </nav>
-    <section id="profile">
-      <div class="section__pic-container">
-        <img src="images/profile-pic.png" alt="John Doe profile picture" />
-      </div>
-      <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Swapnil Sudrik</h1>
-        <p class="section__text__p2">Full-Stack Developer</p>
-        <div class="btn-container">
-          <a
-            href="./resume/Resume.pdf"
-            download
-            onclick="window.open('./resume/Resume.pdf')"
-          >
-            <button class="btn btn-color-2">Download CV</button>
-          </a>
+    </div>
+    <div class="image">
+      <img draggable="false" class="tilt" src="./assets/images/profile1.png" alt="">
+    </div>
+  </section>
+  <!-- hero section ends -->
 
-          <button class="btn btn-color-1" onclick="location.href='./#contact'">
-            Contact Info
-          </button>
+
+  <!-- about section starts -->
+  <section class="about" id="about">
+    <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+
+    <div class="row">
+
+      <div class="image">
+        <img draggable="false" class="tilt" src="./assets/images/profile-pic.png" alt="">
+      </div>
+      <div class="content">
+        <h3>I'm Swapnil</h3>
+        <span class="tag">Java Developer | Full Stack Developer | MERN Stack Developer</span>
+        <p>
+          I am a passionate Software Developer with
+          expertise in crafting seamless web experiences and user-friendly
+          applications. With a keen eye for detail and dedication to clean
+          code, I take pride in delivering high-quality, scalable solutions
+          that adhere to industry best practices. Collaborating with
+          cross-functional teams is at the heart of my development process,
+          enabling me to create robust solutions that push the boundaries of
+          web development. I'm always seeking new challenges and
+          opportunities to create impactful web experiences. Feel free to
+          reach out to me on <span style='font-size:20px;'>&#128071;</span>
+        </p>
+        <div class="box-container">
+          <div class="box">
+            <p><span> Email : </span> <a href="mailto:swapnilsudrik.s@gmail.com">swapnilsudrik.s@gmail.com</a></p>
+            <p><span> Place : </span> Pune, India - 412206</p>
+          </div>
         </div>
-        <div id="socials-container">
-          <a
-            href="https://www.linkedin.com/in/swapnil-sudrik/"
-            target="_blank"
-          >
-            <img
-              src="images/linkedin.png"
-              class="icon"
-              alt="My LinkedIn profile"
-            />
+
+        <div class="resumebtn">
+          <a href="https://drive.google.com/file/d/1qYjX3NEee19Xr1dbSsQ3MXZIDmTPvbd6/view" target="_blank"
+            class="btn"><span>Resume</span>
+            <i class="fas fa-chevron-right"></i>
           </a>
-          <a href="https://github.com/swapnil-sudrik/" target="_blank">
-            <img src="images/github.png" class="icon" alt="My Github profile" />
-          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- about section ends -->
+
+
+  <!-- skills section starts -->
+  <section class="skills" id="skills">
+    <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
+    <div class="container">
+      <div class="row" id="skillsContainer">
+        <!-- adding skills using javascript -->
+      </div>
+    </div>
+  </section>
+  <!-- skills section ends -->
+
+
+  <!-- education section starts -->
+  <section class="education" id="education">
+    <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
+    <p class="qoute">Education is the foundation upon which we build our future.</p>
+    <div class="box-container">
+      <div class="box">
+        <div class="image">
+          <img draggable="false" src="./assets/images/educat/magar-college.png" alt="">
+        </div>
+        <div class="content">
+          <h3>Masters in Computer Science</h3>
+          <p>Annasaheb Magar College, Hadapsar | SPPU</p>
+          <h4>2021-2023 | Completed</h4>
         </div>
       </div>
-    </section>
-    <section id="about">
-      <p class="section__text__p1">Get To Know More</p>
-      <h1 class="title">About Me</h1>
-      <div class="section-container">
-        <div class="section__pic-container">
-          <img
-            class="about-pic"
-            src="images/about-pic.png"
-            alt="Profile picture"
-          />
+
+      <div class="box">
+        <div class="image">
+          <img draggable="false" src="./assets/images/educat/ahmednagar-college.jpg" alt="">
         </div>
-        <div class="about-details-container">
-          <div class="about-containers">
-            <div class="details-container">
-              <img
-                class="icon"
-                src="images/experience.png"
-                alt="Experience icon"
-              />
-              <h3>Experience</h3>
-              <p style="font-size: 15px">
-                <b>Freelancer (11/2022 - 06/2023)</b><br />Full Stack Developer
-              </p>
-              <br />
-              <p style="font-size: 15px">
-                <b>Full Stack Intern (05/2022 - 11/2022)</b><br />Borgward
-                Technology , Pune
-              </p>
-            </div>
-            <div class="details-container">
-              <img
-                class="icon"
-                src="images/education.png"
-                alt="Education icon"
-              />
-              <h3>Education</h3>
-              <p style="font-size: 15px">
-                <b>BSc. (Computer Science)</b><br />Ahmednagar College,
-                Ahmednagar<br />07/2018 - 05/2021 <br />
-              </p>
-              <p style="font-size: 15px">
-                <b>MSc. (Computer Science)</b><br />
-                Annasaheb Magar College , Hadapsar<br />
-                07/2021 - 06/2023<br />
-              </p>
-            </div>
-          </div>
-          <div class="text-container">
-            <p>
-              Hello! I'm Swapnil, a passionate Full Stack Developer with
-              expertise in crafting seamless web experiences and user-friendly
-              applications. With a keen eye for detail and dedication to clean
-              code, I take pride in delivering high-quality, scalable solutions
-              that adhere to industry best practices. Collaborating with
-              cross-functional teams is at the heart of my development process,
-              enabling me to create robust solutions that push the boundaries of
-              web development. I'm always seeking new challenges and
-              opportunities to create impactful web experiences. Feel free to
-              reach out to me on
-              <a
-                href="https://wa.me/+917057546782"
-                target="_blank"
-                style="text-decoration: none; color: darkgreen"
-                >WhatsApp</a
-              >, and let's embark on a development journey together. Thank you
-              for visiting my portfolio, and I look forward to connecting with
-              you!
-            </p>
-          </div>
+        <div class="content">
+          <h3>Bachelor in Computer Science</h3>
+          <p>Ahmednagar College, Ahmednagar | SPPU</p>
+          <h4>2018-2021 | Completed</h4>
         </div>
       </div>
-      <img
-        src="images/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#experience'"
-      />
-    </section>
-    <section id="experience">
-      <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  class="icon"
-                  src="images/checkmark.png"
-                  alt="Experience icon"
-                />
-                <div>
-                  <h3>HTML</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  class="icon"
-                  src="images/checkmark.png"
-                  alt="Experience icon"
-                />
-                <div>
-                  <h3>CSS</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  class="icon"
-                  src="images/checkmark.png"
-                  alt="Experience icon"
-                />
-                <div>
-                  <h3>React.js</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  class="icon"
-                  src="images/checkmark.png"
-                  alt="Experience icon"
-                />
-                <div>
-                  <h3>React Native</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  class="icon"
-                  src="images/checkmark.png"
-                  alt="Experience icon"
-                />
-                <div>
-                  <h3>JavaScript</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  class="icon"
-                  src="images/checkmark.png"
-                  alt="Experience icon"
-                />
-                <div>
-                  <h3>Prime React</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  class="icon"
-                  src="images/checkmark.png"
-                  alt="Experience icon"
-                />
-                <div>
-                  <h3>Bootstrap</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-            </div>
+
+    </div>
+  </section>
+  <!-- education section ends -->
+
+
+  <!-- work project section starts -->
+  <section class="work" id="work">
+    <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
+    <div class="box-container">
+      <!-- Projects -->
+    </div>
+  </section>
+  <!-- work project section ends -->
+
+
+  <!-- experience section starts -->
+  <section class="experience" id="experience">
+    <h2 class="heading"><i class="fas fa-briefcase"></i> Experience </h2>
+    <div class="timeline">
+      <div class="container right">
+        <div class="content">
+          <div class="tag">
+            <h2>Freelancer</h2>
           </div>
-          <div class="details-container">
-            <h2 class="experience-sub-title">Backend Development</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  class="icon"
-                  src="images/checkmark.png"
-                  alt="Experience icon"
-                />
-                <div>
-                  <h3>Java</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  class="icon"
-                  src="images/checkmark.png"
-                  alt="Experience icon"
-                />
-                <div>
-                  <h3>Spring</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  class="icon"
-                  src="images/checkmark.png"
-                  alt="Experience icon"
-                />
-                <div>
-                  <h3>MySQL</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  class="icon"
-                  src="images/checkmark.png"
-                  alt="Experience icon"
-                />
-                <div>
-                  <h3>Node JS</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  class="icon"
-                  src="images/checkmark.png"
-                  alt="Experience icon"
-                />
-                <div>
-                  <h3>Express JS</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  class="icon"
-                  src="images/checkmark.png"
-                  alt="Experience icon"
-                />
-                <div>
-                  <h3>Git</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  class="icon"
-                  src="images/checkmark.png"
-                  alt="Experience icon"
-                />
-                <div>
-                  <h3>Microsoft Azur</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-            </div>
+          <div class="desc">
+            <h3>Full Stack Developer</h3>
+            <p>Jul 2023 - present</p>
           </div>
         </div>
       </div>
-      <img
-        src="images//arrow.png"
-        class="icon arrow"
-        onclick="location.href='./#projects'"
-        alt=""
-      />
-    </section>
-    <section id="projects">
-      <p class="section__text__p1">Browse My Recent</p>
-      <h1 class="title">Projects</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                class="project-img"
-                src="images//project-2.png"
-                alt="project-1"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">FS Institute</h2>
-            <p>Suggesting a place to prepare for a future in technology.</p>
-            <br />
-            <div class="btn-container">
-              <a
-                href="https://future-scope-institute.github.io/oms/"
-                target="_blank"
-              >
-                <button class="btn btn-color-2 project-btn">Live Demo</button>
-              </a>
-            </div>
+
+      <div class="container left">
+        <div class="content">
+          <div class="tag">
+            <h2>Anemoi Technologies</h2>
           </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                class="project-img"
-                src="images/project-1.png"
-                alt="project-1"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">MobileMarvels</h2>
-            <p>
-              Signifying a showroom with awe-inspiring and marvelous mobile
-              devices.
-            </p>
-            <br />
-            <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" onclick="alert();">
-                Live Demo
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                class="project-img"
-                src="images/project-3.png"
-                alt="project-1"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">HungryHub</h2>
-            <p>
-              A platform where hungry customers can find a hub of diverse food
-              options.
-            </p>
-            <br />
-            <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" onclick="alert();">
-                Live Demo
-              </button>
-            </div>
+          <div class="desc">
+            <h3>Java Developer | Internship</h3>
+            <p>Apr 2023 - jun 2023</p>
           </div>
         </div>
       </div>
-      <img
-        src="images//arrow.png"
-        class="icon arrow"
-        onclick="location.href='./#contact'"
-        alt=""
-      />
-    </section>
-    <section id="contact">
-      <p class="section__text__p1">Get In Touch</p>
-      <h1 class="title">Contact Me</h1>
-      <div class="contact-info-upper-container">
-        <div class="contact-info-container">
-          <img
-            src="images/email.png"
-            class="icon contact-icon"
-            alt="Email icon"
-          />
-          <p>
-            <a href="mailto:swapnilsudrik.s@gmail.com" target="_blank" style="text-decoration: none;"
-              >swapnilsudrik.s@gmail.com</a
-            >
-          </p>
+    </div>
+    </div>
+  </section>
+  <!-- experience section ends -->
+
+
+  <!-- github section start -->
+  <section class="about git" id="about">
+    <h2 class="heading git"><i class="fas fa-user-alt"></i> Github <span>Stats</span></h2>
+    <div class="row">
+      <div>
+        <p align="center">
+          <img width="800px"
+            src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=swapnil-sudrik&theme=github_dark"
+            alt="swapnil sudrik" align="center" />
+        </p>
+      </div>
+
+      <div>
+        <p align="center">
+          <img alt="Top Languages"
+            src="https://github-readme-stats.vercel.app/api/top-langs/?username=swapnil-sudrik&count_private=true&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117"
+            alt="swapnil sudrik" />
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div>
+        <p align="center">
+          <img title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="Swapnil Sudrik's streak"
+            src="https://github-readme-streak-stats.herokuapp.com/?user=swapnil-sudrik&hide_border=true&theme=github_dark&hide_border=true&bg_color=0D1117"
+            alt="Swapnil Sudrik" />
+        </p>
+      </div>
+      <div>
+        <p align="center">
+          <img alt="Swapnil Sudrik's Github Stats"
+            src="https://github-readme-stats.vercel.app/api?username=swapnil-sudrik&show_icons=true&locale=en&theme=github_dark&hide_border=true&bg_color=0D1117"
+            alt="swapnil sudrik" />
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- github section ends -->
+
+
+
+  <!-- contact section starts -->
+  <section class="contact" id="contact">
+    <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
+    <div class="container">
+      <div class="content">
+        <div class="image-box">
+          <img draggable="false" src="./assets/images/contact1.png" alt="">
         </div>
-        <!-- <div class="contact-info-container">
-          <img
-            src="images/linkedin.png"
-            class="icon contact-icon"
-            alt="Email icon"
-          />
-          <p>
-            <a
-              href="https://www.linkedin.com/in/swapnil-sudrik-20757a244/"
-              target="_blank"
-              >LinkedIn</a
-            >
-          </p>
-        </div> -->
-        <div class="contact-info-container">
-          <img
-            src="images/whatsapp.png"
-            class="icon contact-icon"
-            alt="WhatsApp icon"
-          />
-          <p>
-            <a
-              href="https://wa.me/+917057546782"
-              target="_blank"
-              style="text-decoration: none"
-              >+91-7057546782</a
-            >
-          </p>
+        <form id="contact-form">
+          <div class="form-group">
+            <div class="field">
+              <input type="text" id="name" name="name" placeholder="Name">
+              <i class='fas fa-user'></i>
+            </div>
+            <div id="nameError" class="error-message"></div>
+
+            <div class="field">
+              <input type="email" name="email" id="email" placeholder="Email">
+              <i class='fas fa-envelope'></i>
+            </div>
+            <div id="emailError" class="error-message"></div>
+
+            <div class="field">
+              <input type="tel" name="phone" id="phone" placeholder="Phone">
+              <i class='fas fa-phone-alt'></i>
+            </div>
+            <div id="phoneError" class="error-message"></div>
+
+            <div class="message">
+              <textarea placeholder="Message" id="message" name="message"></textarea>
+              <i class="fas fa-comment-dots"></i>
+            </div>
+            <div id="messageError" class="error-message"></div>
+          </div>
+          <div class="button-area">
+            <button type="submit">Submit <i class="fa fa-paper-plane"></i></button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- contact section ends -->
+
+
+  <!-- footer section starts -->
+  <section class="footer">
+    <div class="box-container">
+      <div class="box">
+        <h3>Swapnil's Portfolio</h3>
+        <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br /> <br /> Keep Rising
+          🚀. Connect with me over live chat!</p>
+      </div>
+      <div class="box">
+        <h3>quick links</h3>
+        <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
+        <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
+        <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
+        <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
+        <a href="#work"><i class="fas fa-chevron-circle-right"></i> work</a>
+        <a href="#experience"><i class="fas fa-chevron-circle-right"></i> experience</a>
+      </div>
+      <div class="box">
+        <h3>contact info</h3>
+        <p> <i class="fas fa-phone"></i>+91 7057546782</p>
+        <p> <i class="fas fa-envelope"></i>swapnilsudrik.s@gmail.com</p>
+        <p> <i class="fas fa-map-marked-alt"></i>Pune, India-412206</p>
+        <div class="share">
+          <a href="https://www.linkedin.com/in/swapnil-sudrik" class="fab fa-linkedin" aria-label="LinkedIn"
+            target="_blank"></a>
+          <a href="https://github.com/swapnil-sudrik" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
+          <a href="mailto:swapnilsudrik.s@gmail.com" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
+          <a href="https://t.me/swapnil_sudrik" class="fab fa-telegram-plane" aria-label="Telegram" target="_blank"></a>
         </div>
       </div>
-    </section>
-    <footer>
-      <p>
-        Copyright &#169; 2023
-        <a
-          href="mailto:swapnilsudrik.s@gmail.com"
-          target="_blank"
-          style="text-decoration: none"
-          >Swapnil Sudrik</a
-        >
-        All Rights Reserved
-      </p>
-      <br />
-    </footer>
-    <script>
-      function toggleMenu() {
-        const menu = document.querySelector(".menu-links");
-        const icon = document.querySelector(".hamburger-icon");
-        menu.classList.toggle("open");
-        icon.classList.toggle("open");
-      }
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.all.min.js"></script>
-    <script>
-      function alert() {
-        Swal.fire({
-          title: "Project Status",
-          html: "My project is currently under development.<br>Thank you for your interest!<br>Please check back later.",
-          icon: "info",
-          confirmButtonText: "Okay, got it!",
-        });
-      }
-    </script>
-  </body>
+    </div>
+    <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a
+        href="https://www.linkedin.com/in/swapnil-sudrik"> Swapnil Sudrik</a></h1>
+  </section>
+  <!-- footer section ends -->
+
+
+  <!-- scroll top btn -->
+  <a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
+  <!-- scroll back to top -->
+
+
+  <!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
+  <!-- jquery cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- typed.js cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"
+    integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- vanilla tilt.js links -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"
+    integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- scroll reveal anim -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <!-- <script src="https://cdn.emailjs.com/dist/email.min.js"></script> -->
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.all.min.js"></script>
+  <!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
+
+  <script src="./assets/js/script.js"></script>
+</body>
 </html>

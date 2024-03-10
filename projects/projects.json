@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Chat Bot",
+    "desc": "The Chatbot is a virtual assistant created for the Sciestra educational website, Built using React.js, react-simple-chatbot, Bootstrap",
+    "image": "chatbot",
+    "category": "react",
+    "links": {
+      "view": "",
+      "code": "https://github.com/swapnil-sudrik/chat-bot.git"
+    }
+  },
+  {
+    "name": "Office Management",
+    "desc": "Office Management System web Application, Built using React.js, Java, Spring Boot, Bootstrap",
+    "image": "oms",
+    "category": "mern",
+    "links": {
+      "view": "https://future-scope-institute.github.io/oms/",
+      "code": "https://github.com/swapnil-sudrik/oms.git"
+    }
+  },
+  {
+    "name": "Task Manager",
+    "desc": "Task Manager is a simple tool designed to help you organize and manage your tasks, Built using React.js, Express.js, Node.js",
+    "image": "taskmanager",
+    "category": "mern",
+    "links": {
+      "view": "",
+      "code": "https://github.com/swapnil-sudrik/task-manager.git"
+    }
+  },
+  {
+    "name": "OTP-Platform",
+    "desc": "Similar to the OTP functionality used by platforms like Netflix, Built using React.js, Bootstrap",
+    "image": "otp",
+    "category": "react",
+    "links": {
+      "view": "",
+      "code": "https://github.com/swapnil-sudrik/otp-platform.git"
+    }
+  },
+  {
+    "name": "Admin Dashboard",
+    "desc": "News Article Admin Dashboard Application, Built using Java, Spring Boot, React.js",
+    "image": "admindashboard",
+    "category": "mern",
+    "links": {
+      "view": "",
+      "code": "https://github.com/swapnil-sudrik/news-article-admin-dashboard.git"
+    }
+  },
+  {
+    "name": "Mobile Showroom",
+    "desc": "Mobile Showroom web Application, Built using React.js, Express.js, Node.js, PrimeReact, Bootstrap",
+    "image": "mobilehub",
+    "category": "mern",
+    "links": {
+      "view": "",
+      "code": "https://github.com/swapnil-sudrik/mobileHub.git"
+    }
+  }
+]
