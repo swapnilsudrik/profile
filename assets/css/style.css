@@ -231,14 +231,8 @@ header .navbar ul li a:hover {
   gap: 1.5rem;
   min-height: 100vh;
   align-items: center;
-}
-
-.home #particles-js {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 .home::before {
@@ -375,26 +369,6 @@ header .navbar ul li a:hover {
   border: 1px solid rgb(180, 178, 178);
 }
 
-/* .social-icons a.github:hover {
-  background-color: #0e0e0e;
-}
-
-.social-icons a.twitter:hover {
-  background-color: #00aced;
-}
-
-.social-icons a.linkedin:hover {
-  background-color: #007bb6;
-}
-
-.social-icons a.dev:hover {
-  background-color: #070707;
-}
-
-.social-icons a.instagram:hover {
-  background-color: #ee00da;
-} */
-
 /* social icons end */
 
 /* hero media queries starts*/
@@ -405,10 +379,6 @@ header .navbar ul li a:hover {
 
   .socials {
     margin-top: 12rem;
-  }
-
-  .home .image img {
-    margin-top: -12rem;
   }
 
   .home .content p {
@@ -427,7 +397,8 @@ header .navbar ul li a:hover {
 .about {
   background: rgb(255, 255, 255);
 }
-.git{
+
+.git {
   background-color: #00002c;
   color: white;
 }
@@ -629,7 +600,7 @@ header .navbar ul li a:hover {
 }
 
 /* skills media queries starts*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 651px) {
   .skills .container {
     padding: 0;
     margin: 0;
@@ -647,6 +618,27 @@ header .navbar ul li a:hover {
     width: 100%;
   }
 }
+
+@media screen and (min-width: 651px) and (max-width: 1100px) {
+
+  .skills .container {
+    padding: 0;
+    margin: 0;
+  }
+
+  .skills .container .row {
+    grid-template-columns: repeat(4, 1fr);
+    margin: 1rem;
+    padding: 2rem 0.2rem 2rem 0.2rem;
+    gap: 1rem;
+  }
+
+  .skills .container {
+    margin-top: 5px;
+    width: 100%;
+  }
+}
+
 
 /* skills media queries ends*/
 /* skills section ends */
@@ -1065,9 +1057,6 @@ header .navbar ul li a:hover {
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
-  .experience {
-    min-height: 80vh;
-  }
 
   .experience .timeline {
     margin-top: 2rem;
@@ -1466,3 +1455,30 @@ form .button-area {
 }
 
 /* scroll top ends */
+
+.custom-section {
+  padding: 40px 0;
+  text-align: center;
+}
+
+
+.custom-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.custom-img {
+  width: 100%;
+}
+
+.custom-row>div {
+  flex: 1;
+  margin: 10px;
+}
+
+@media (max-width: 768px) {
+  .custom-row>div {
+    flex: 100%;
+  }
+}

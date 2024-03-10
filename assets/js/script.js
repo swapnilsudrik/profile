@@ -18,7 +18,7 @@ $(document).ready(function () {
         // scroll spy
         $('section').each(function () {
             let height = $(this).height();
-            let offset = $(this).offset().top - 200;
+            let offset = $(this).offset().top - 1000;
             let top = $(window).scrollTop();
             let id = $(this).attr('id');
 
@@ -194,13 +194,6 @@ function showProjects(projects) {
     let projectsContainer = document.querySelector("#work .box-container");
     let projectHTML = "";
     projects.forEach(project => {
-        if(project.links.view === ""){
-            console.log("in view");
-        }
-        else{
-            console.log(project.links.code)
-        }
-
         projectHTML += `
         <div class="box tilt">
       <img draggable="false" src="./assets/images/projects/${project.image}.png" alt="project" />
@@ -229,10 +222,11 @@ function showProjects(projects) {
     });
     // <!-- tilt js effect ends -->
 
-    /* ===== SCROLL REVEAL ANIMATION ===== */
+
+    // /* ===== SCROLL REVEAL ANIMATION ===== */
     const srtop = ScrollReveal({
         origin: 'top',
-        distance: '80px',
+        distance: '10px',
         duration: 1000,
         reset: true
     });
@@ -279,7 +273,7 @@ document.onkeydown = function (e) {
 /* ===== SCROLL REVEAL ANIMATION ===== */
 const srtop = ScrollReveal({
     origin: 'top',
-    distance: '80px',
+    distance: '10px',
     duration: 1000,
     reset: true
 });
