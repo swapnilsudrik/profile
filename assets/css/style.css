@@ -1482,3 +1482,14 @@ form .button-area {
     flex: 100%;
   }
 }
+
+
+.swal2-styled.swal2-confirm {
+  border: 0;
+  border-radius: 0.25em;
+  background: initial;
+  background-color: #28a745;
+  color: #fff;
+  font-size: 1em;
+  width: 115px;
+}

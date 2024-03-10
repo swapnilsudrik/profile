@@ -51,48 +51,54 @@ $(document).ready(function () {
 
 });
 
-function emailSending (toName, fromName, email, phone, message){
+function emailSending(toName, fromName, email, phone, message) {
 
     var serviceID = 'service_apj0msr';
-    var templateID= 'template_q0vb1mj';
+    var templateID = 'template_q0vb1mj';
     var templateParams = {
         to_name: toName,
         from_name: fromName,
-        email:email,
-        phone:phone,
-        message:message
-      };
-      
-      emailjs.send(serviceID, templateID, templateParams).then(
+        email: email,
+        phone: phone,
+        message: message
+    };
+
+    emailjs.send(serviceID, templateID, templateParams).then(
         (response) => {
             document.getElementById("contact-form").reset();
-          console.log('SUCCESS!', response.status, response.text);
-          Swal.fire({
-            title: "Message Sent..!",
-            html: "Your message was successfully sent! 🎉 We'll get back to you as soon as possible.",
-            icon: "success",
-            confirmButtonText: "Okay",
-          });
+            console.log('SUCCESS!', response.status, response.text);
+            Swal.fire({
+                width: 500,
+                padding: "4em",
+                title: "Message Sent..!",
+                html: `<span style="font-size:16px">Your message was successfully sent! 🎉 We'll get back to you as soon as possible.</span>`,
+                icon: "success",
+                confirmButtonText: "Okay",
+                confirmButtonColor: "#28a745",
+            });
         },
         (error) => {
-          console.log('FAILED...', error);
-          Swal.fire({
-            title: "Message Not Sent..!",
-            html: "Oops! Something went wrong. 😞 Please check your information and try submitting the form again. If the issue persists, contact our support team.",
-            icon: "error",
-            confirmButtonText: "Okay",
-          });
+            console.log('FAILED...', error);
+            Swal.fire({
+                width: 500,
+                padding: "4em",
+                title: "Message Not Sent..!",
+                html: `<span style="font-size:16px">Oops! Something went wrong. 😞 Please check your information and try submitting the form again. If the issue persists, contact our support team.</span>`,
+                icon: "error",
+                confirmButtonText: "Okay",
+                confirmButtonColor: "#dc3545",
+            });
         },
-      );
+    );
 }
 
 
 function validateForm() {
-    var toName='Swapnil';
-    var name=$('#name').val();
-    var email=$('#email').val();
-    var phone=$('#phone').val();
-    var message=$('#message').val();
+    var toName = 'Swapnil';
+    var name = $('#name').val();
+    var email = $('#email').val();
+    var phone = $('#phone').val();
+    var message = $('#message').val();
 
     // Clear previous error messages
     document.getElementById('nameError').innerHTML = '';
@@ -148,7 +154,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["Java Development","Full Stack Development","MERN Stack Development","frontend development", "backend development", "web designing", "web development"],
+    strings: ["Java Development", "Full Stack Development", "MERN Stack Development", "frontend development", "backend development", "web designing", "web development"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
@@ -183,12 +189,18 @@ function showSkills(skills) {
 
 function projectAlert(pname) {
     Swal.fire({
-      title: "Project Status",
-      html: `${pname} is currently under development.<br>Thank you for your interest!<br>Please check back later.`,
-      icon: "info",
-      confirmButtonText: "Okay, got it!",
+        width: 500,
+        padding: "4em",
+        title: "Project Status",
+        html: `<b><span style="font-size:16px"> { ${pname} } is currently under development.</span></b><br>
+                <span>Thank you for your interest! Please check back later for exciting updates.</span><br>
+                <span>If you have any questions or encounter issues, feel free to connect with me on <a style="font-size:13px" href="https://www.linkedin.com/in/swapnil-sudrik">LinkedIn</a>.</span>
+        `,
+        icon: "info",
+        confirmButtonText: "Okay, got it!",
+        confirmButtonColor:"#28a745"
     });
-  }
+}
 
 function showProjects(projects) {
     let projectsContainer = document.querySelector("#work .box-container");
