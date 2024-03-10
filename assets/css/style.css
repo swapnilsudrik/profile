@@ -250,6 +250,14 @@ header .navbar ul li a:hover {
   z-index: 1;
 }
 
+.home .content .typing-text{
+  font-size: 16px;
+}
+
+.home .content .into{
+  font-size: 16px;
+}
+
 .home .image {
   flex: 1 1 40rem;
   z-index: 1;
@@ -379,14 +387,6 @@ header .navbar ul li a:hover {
 
   .socials {
     margin-top: 12rem;
-  }
-
-  .home .content p {
-    font-size: 2.2rem;
-  }
-
-  .home .content p span {
-    font-size: 2.2rem;
   }
 }
 
